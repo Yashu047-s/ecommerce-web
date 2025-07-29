@@ -1,0 +1,34 @@
+# Formatters (optional)
+autopep8==1.6.0
+pycodestyle==2.10.0
+
+# Django core and extensions
+Django==2.2.14
+django-allauth==0.51.0
+django-countries==7.5.1
+django-crispy-forms==1.14.0
+django-debug-toolbar==3.2.4
+
+# Modern, precompiled Pillow (solves setup.py errors)
+Pillow==10.3.0
+
+# Auth & OAuth support
+requests==2.31.0
+requests-oauthlib==1.3.1
+oauthlib==3.2.2
+
+# Compatible python-openid (patched)
+#python3-openid @https://github.com/justdjango/django-ecommerce.git
+
+# Environment helpers and utilities
+python-decouple==3.8
+defusedxml==0.7.1
+sqlparse==0.4.4
+pytz==2024.1
+
+# Stripe and support packages
+stripe==2.71.0
+urllib3==1.26.18
+certifi==2024.2.2
+chardet==5.2.0
+idna==3.7
